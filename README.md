@@ -2,6 +2,8 @@
 
 Elaborate and styled todolist.
 
+![Alt text](todov2.png?raw=true "Todov2")
+
 ---
 
 Bootstrapped using bs-init.
