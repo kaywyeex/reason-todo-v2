@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 0;
+  color: #393939;
+}
+
+input {
+  font-family: -apple-system, system-ui, system-ui;
+  width: 100%;
+  font-size: 18px;
+  /* Focus input def */
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+  border-radius: 25px;
+  left: -50%;
+  position: relative;
+  /* input style */
+  text-align: center;
+  background-color: #0003;
+  color: #f9f9f9;
+  font-weight: 300;
+}
+
+input::-webkit-input-placeholder {
+  color: #f9f9f9;
+}
+input:-moz-placeholder {
+  color: #f9f9f9;
+}
+
+.input-container {
+  position: absolute;
+  width: 350px;
+  left: 50%;
+  top: 12px;
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 31px;
+  font-family: -apple-system, system-ui, system-ui;
+  font-size: 18px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  width: 100%;
+  margin: 0;
+  color: #f9f9f9;
+  background: #db4d3f;
+  height: 34px;
+  padding: 9px 0;
+}
+
+.list {
+  color: #db4d3f;
+}
+
+.item {
+  padding: 8px;
+  height: 24px;
+  line-height: 24px;
+}
+
+.item:nth-of-type(even) {
+  background: #db4d3f;
+  color: #f9f9f9;
+}
+
+.text {
+  float: left;
+}
+
+.item > .delete {
+  float: right;
+  width: fit-content;
+  background: transparent;
+}
+
+.item > .date {
+  font-size: 12px;
+  margin-right: 8px;
+  float: right;
+}
